@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none';" />
+  <link rel="icon" type="image/png" href="media/favicon-192.png" />
+  <link rel="apple-touch-icon" href="media/apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_PE" />
+  <meta property="og:title" content="Smart Home Inmobiliaria | Smart Living · Edificios Inteligentes en Lima" />
+  <meta property="og:description" content="Más que un departamento, un estilo de vida conectado. Proyectos residenciales Alameda 5 y Alameda II en Ñaña, Lima." />
+  <title>Smart Home Inmobiliaria | Smart Living · Edificios Inteligentes en Lima</title>
+  <meta name="description" content="Smart Home Inmobiliaria. Más que un departamento, un estilo de vida conectado. Proyectos residenciales Alameda II, Departamentos Flat y Triplex en Lima." />
+
+  <!-- FUENTES OBLIGATORIAS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:ital,wght@0,400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600&amp;display=swap">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- BARRA SUPERIOR DE CONTACTO RÁPIDO (Números, Correos y Ubicación de la Marca) -->
+  <div class="topbar" role="region" aria-label="Datos de contacto directo">
+    <div class="container topbar__inner">
+      <div class="topbar__group">
+        <span class="topbar__item">
+          <span class="topbar__dot" aria-hidden="true"></span>
+          <strong>La Alameda de Ñaña 1era Etapa (Frente a Av. Ramiro Prialé Km 18, a 80 m de la UPeU)</strong> · Lima
+        </span>
+      </div>
+      <div class="topbar__group topbar__group--links">
+        <a href="https://wa.me/51989144212" target="_blank" rel="noopener noreferrer" class="topbar__link">
+          WhatsApp: <strong>+51 989 144 212</strong>
+        </a>
+        <span class="topbar__sep" aria-hidden="true">|</span>
+        <a href="mailto:ventas@smarthomeinmobiliaria.pe" class="topbar__link">
+          <strong>ventas@smarthomeinmobiliaria.pe</strong>
+        </a>
+        <span class="topbar__sep" aria-hidden="true">|</span>
+        <a href="https://www.instagram.com/smarthome.inmobiliaria/" target="_blank" rel="noopener noreferrer" class="topbar__social" aria-label="Instagram Smart Home Inmobiliaria">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61577697706910" target="_blank" rel="noopener noreferrer" class="topbar__social" aria-label="Facebook Smart Home Inmobiliaria">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          <span>Facebook</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN HERO · SMART HOME INMOBILIARIA -->
+  <header class="hero" id="inicio">
+    <!-- Imagen Principal (1ra cara: Fachada Oficial del Edificio) -->
+    <div class="hero__video-wrapper" aria-hidden="true">
+      <img fetchpriority="high" decoding="async"
+        src="media/img/img-e7a632b87a.webp"
+        alt="Fachada Oficial del Edificio Residencial Smart Home Inmobiliaria"
+        class="hero__video"
+      />
+      <!-- Capa negra al 20% -->
+      <div class="hero__overlay"></div>
+    </div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" class="navbar__brand" aria-label="Smart Home Inmobiliaria">
+        <img src="media/img/img-843ef37e64.webp" alt="Logo Smart Home Inmobiliaria" class="navbar__logo-img" />
+        <div class="navbar__brand-text">
+          <span class="navbar__brand-script">Smart Home</span>
+          <span class="navbar__brand-tag">INMOBILIARIA</span>
+        </div>
+      </a>
+
+      <ul class="navbar__links">
+        <li><a href="#nosotros" class="navbar__link">Nosotros</a></li>
+        <li><a href="#mision-vision" class="navbar__link">Misión y Visión</a></li>
+        <li><a href="#proyectos" class="navbar__link">Proyectos</a></li>
+        <li><a href="#servicios" class="navbar__link">Servicios</a></li>
+        <li><a href="#diario" class="navbar__link">Smart Living</a></li>
+        <li><a href="#contacto" class="navbar__link">Contacto</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a href="https://wa.me/51989144212" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp-nav">
+          989 144 212
+        </a>
+        <a href="#contacto" class="btn btn--nav-cta">Reservar consulta</a>
+        <button
+          type="button"
+          class="navbar__toggle"
+          id="mobile-menu-open"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="navbar__toggle-line"></span>
+          <span class="navbar__toggle-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Menú Móvil Negro Translúcido con los mismos enlaces y cierre -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil" hidden>
+      <div class="mobile-menu__header">
+        <a href="#inicio" class="navbar__brand">
+          <img src="media/img/img-843ef37e64.webp" alt="Logo Smart Home Inmobiliaria" class="navbar__logo-img" />
+          <div class="navbar__brand-text">
+            <span class="navbar__brand-script">Smart Home</span>
+            <span class="navbar__brand-tag">INMOBILIARIA</span>
+          </div>
+        </a>
+        <button
+          type="button"
+          class="mobile-menu__close"
+          id="mobile-menu-close"
+          aria-label="Cerrar menú de navegación"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-menu__links">
+        <li><a href="#nosotros" class="mobile-menu__link">Nosotros</a></li>
+        <li><a href="#mision-vision" class="mobile-menu__link">Misión y Visión</a></li>
+        <li><a href="#proyectos" class="mobile-menu__link">Proyectos</a></li>
+        <li><a href="#servicios" class="mobile-menu__link">Servicios</a></li>
+        <li><a href="#diario" class="mobile-menu__link">Smart Living</a></li>
+        <li><a href="#contacto" class="mobile-menu__link">Contacto</a></li>
+      </ul>
+      <div class="mobile-menu__contact-quick">
+        <a href="tel:+51989144212">Tel / WhatsApp: +51 989 144 212</a>
+        <a href="mailto:ventas@smarthomeinmobiliaria.pe">ventas@smarthomeinmobiliaria.pe</a>
+        <div class="social-links social-links--center">
+          <a href="https://www.instagram.com/smarthome.inmobiliaria/" target="_blank" rel="noopener noreferrer" class="social-pill">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61577697706910" target="_blank" rel="noopener noreferrer" class="social-pill">Facebook</a>
+        </div>
+      </div>
+      <div class="mobile-menu__footer">
+        <a href="#contacto" class="btn btn--solid mobile-menu__cta">Reservar consulta</a>
+      </div>
+    </div>
+
+    <!-- Contenido Central Hero (entrada única de opacidad y ascenso de 12–24 px durante 0.8–1 s) -->
+    <div class="hero__content entrance-anim">
+      <div class="hero__capsule">
+        <span>Smart Home Inmobiliaria · Smart Living Alameda II</span>
+      </div>
+
+      <h1 class="hero__title">
+        Habita el futuro,<br />
+        <em>desde dentro.</em>
+      </h1>
+
+      <p class="hero__subtitle">
+        Más que un departamento, un estilo de vida conectado. Edificios residenciales inteligentes, Departamentos Flat y Triplex diseñados con arquitectura sostenible.
+      </p>
+
+      <div class="hero__buttons">
+        <a href="#contacto" class="btn btn--solid">Reservar consulta</a>
+        <a href="#proyectos" class="btn btn--glass">Ver edificios y proyectos</a>
+      </div>
+    </div>
+
+    <!-- Pie del Hero -->
+    <div class="hero__footer entrance-anim">
+      <a href="#nosotros" class="hero__scroll">
+        <span>Desplázate</span>
+        <span class="hero__scroll-indicator" aria-hidden="true"></span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECCIÓN NOSOTROS · MISIÓN, VISIÓN E IDENTIDAD DE SMART HOME INMOBILIARIA -->
+    <section class="section section--about" id="nosotros">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-grid__content">
+            <span class="section__eyebrow">Nosotros · Smart Home Inmobiliaria</span>
+            <h2 class="section__title">Más que un departamento, <em>un estilo de vida conectado.</em></h2>
+            <p class="section__lead">
+              En <strong>Smart Home Inmobiliaria</strong> proyectamos y construimos edificaciones arquitectónicas contemporáneas en <strong>La Alameda de Ñaña 1era Etapa (frente a la Av. Ramiro Prialé Km 18 aprox., a 80 m de la Universidad Peruana Unión - Lima)</strong>. Integramos domótica inteligente, fachadas eco-sostenibles y distribuciones funcionales en departamentos <strong>Flat, Dúplex y Triplex</strong> de alta plusvalía.
+            </p>
+            <div class="about-brand-strip">
+              <img src="media/img/img-843ef37e64.webp" alt="Identidad Oficial Smart Home Inmobiliaria" class="about-brand-strip__logo" />
+              <div class="about-brand-strip__info">
+                <strong>Atención Directa en Sala de Ventas</strong>
+                <span>WhatsApp: <a href="tel:+51989144212">989 144 212</a> · Correo: <a href="mailto:ventas@smarthomeinmobiliaria.pe">ventas@smarthomeinmobiliaria.pe</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="about-stat__number">Alameda 5 y II</span>
+              <span class="about-stat__label">Nuestros 2 Proyectos Residenciales en Lima</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat__number">Flat, Dúplex &amp; Triplex</span>
+              <span class="about-stat__label">Departamentos Conectados · Smart Living</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat__number">100% Smart</span>
+              <span class="about-stat__label">Automatización de Iluminación, Audio y Accesos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjetas de Misión, Visión y Valores -->
+        <div class="mv-grid" id="mision-vision">
+          <article class="mv-card">
+            <div class="mv-card__header">
+              <span class="mv-card__tag">Propósito Corporativo</span>
+              <span class="mv-card__icon" aria-hidden="true">01</span>
+            </div>
+            <h3 class="mv-card__title">Nuestra <em>Misión</em></h3>
+            <p class="mv-card__text">
+              Desarrollar y entregar edificaciones residenciales inteligentes que eleven la calidad de vida de las familias peruanas, combinando diseño arquitectónico de vanguardia, tecnología domótica accesible, seguridad integral y ubicaciones estratégicas de alta revalorización.
+            </p>
+          </article>
+
+          <article class="mv-card">
+            <div class="mv-card__header">
+              <span class="mv-card__tag">Proyección de Futuro</span>
+              <span class="mv-card__icon" aria-hidden="true">02</span>
+            </div>
+            <h3 class="mv-card__title">Nuestra <em>Visión</em></h3>
+            <p class="mv-card__text">
+              Ser reconocidos como la inmobiliaria líder en el desarrollo de edificios Smart Living y arquitectura biofílica sostenible en el país, transformando el paisaje urbano con proyectos eco-eficientes que conectan a las personas con su hogar.
+            </p>
+          </article>
+
+          <article class="mv-card">
+            <div class="mv-card__header">
+              <span class="mv-card__tag">Pilares Smart Home</span>
+              <span class="mv-card__icon" aria-hidden="true">03</span>
+            </div>
+            <h3 class="mv-card__title">Nuestros <em>Valores</em></h3>
+            <p class="mv-card__text">
+              Innovación tecnológica aplicada al hogar, cumplimiento estricto en plazos de entrega, sostenibilidad ambiental con áreas verdes vivas, y acompañamiento transparente desde la reserva hasta la entrega de llaves.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN BANNER OFICIAL ALAMEDA II · SMART LIVING -->
+    <section class="section section--showcase" id="diario">
+      <div class="container">
+        <div class="showcase-card">
+          <div class="showcase-card__image-wrap">
+            <img
+              src="media/img/img-d72770fe7c.webp"
+              alt="Smart Living Alameda II - Departamentos Flat y Triplex en Lima - Agenda tu visita al 989 144 212"
+              class="showcase-card__banner-img"
+            />
+          </div>
+          <div class="showcase-card__details">
+            <div class="showcase-card__col">
+              <span class="section__eyebrow">Lanzamiento Destacado · Lima</span>
+              <h2 class="showcase-card__title">Proyecto <em>Alameda II</em> · Smart Living</h2>
+              <p class="showcase-card__desc">
+                Departamentos <strong>Flat y Triplex</strong> con acabados en madera natural, iluminación LED indirecta automatizada, cocina americana con barra de granito y control inteligente desde tu celular.
+              </p>
+            </div>
+            <div class="showcase-card__cta-box">
+              <div class="showcase-card__phone-badge">
+                <span>Agenda tu visita hoy</span>
+                <a href="https://wa.me/51989144212" target="_blank" rel="noopener noreferrer">989 144 212</a>
+              </div>
+              <a href="#contacto" class="btn btn--solid" data-project="Alameda II - Flat y Triplex">Solicitar planos y precios</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS · ALAMEDA 5 Y ALAMEDA II (ÚNICOS 2 PROYECTOS) -->
+    <section class="section section--alt" id="proyectos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Nuestros 2 Proyectos Exclusivos · Smart Home Inmobiliaria</span>
+          <h2 class="section__title">Residencial <em>Alameda 5</em> y <em>Alameda II.</em></h2>
+          <p class="section__lead">
+            En Smart Home Inmobiliaria contamos con dos desarrollos residenciales diseñados bajo el concepto Smart Living en Lima: edificaciones modernas con tecnología domótica, seguridad integral y acabados de primera.
+          </p>
+        </div>
+
+        <!-- FICHA OFICIAL PRE-VENTA · UBICACIÓN Y RESUMEN DE LO QUE TENEMOS PARA VENDER -->
+        <div class="sales-summary-banner" id="resumen-venta">
+          <div class="sales-summary-banner__info">
+            <span class="sales-summary-banner__tag">PRE - VENTA · RESUMEN DE DISPONIBILIDAD</span>
+            <h3 class="sales-summary-banner__title">ALAMEDA 5 <em>SMART LIVING</em></h3>
+            <p class="sales-summary-banner__desc">
+              Un edificio de 5 pisos con tecnología integrada, diseño contemporáneo y ambientes creados para tu bienestar.
+            </p>
+            <div class="sales-summary-banner__location">
+              <span class="sales-summary-banner__loc-label">Ubicación Exacta del Proyecto:</span>
+              <p>
+                Se encuentra ubicado en <strong>La Alameda de Ñaña 1era Etapa, frente a la Av. Ramiro Prialé Km 18 aprox., a 80 metros de la Universidad Peruana Unión (UPeU)</strong>, Lima.
+              </p>
+            </div>
+            <div class="sales-summary-banner__actions">
+              <a href="#planos-alameda-5" class="btn btn--whatsapp-nav">VER MÁS / PLANOS 3D</a>
+              <a href="#contacto" class="btn btn--glass" data-project="Proyecto Alameda 5">Agendar visita en Ñaña</a>
+            </div>
+          </div>
+
+          <div class="sales-summary-banner__grid">
+            <div class="sales-kpi-card">
+              <span class="sales-kpi-card__num">5 Pisos</span>
+              <p class="sales-kpi-card__text">
+                “De un solo nivel o tres pisos de altura: ¡tú eliges cómo vivir!”
+              </p>
+            </div>
+
+            <div class="sales-kpi-card">
+              <span class="sales-kpi-card__num">4 Flats</span>
+              <p class="sales-kpi-card__text">
+                Cuentan con <strong>3 dormitorios con Clóset, Baño, Kitchenette y Sala comedor</strong>. Áreas de <strong>90 a 101 m²</strong>.
+              </p>
+            </div>
+
+            <div class="sales-kpi-card">
+              <span class="sales-kpi-card__num">3 Triplex / Dúplex + Azotea</span>
+              <p class="sales-kpi-card__text">
+                “Tres niveles de exclusividad en un solo lugar.” Cuentan con <strong>3 a 4 dormitorios con Clóset, baño, Kitchenette, Sala comedor y Terraza</strong>. Áreas totales de <strong>124 a 210 m²</strong>.
+              </p>
+            </div>
+
+            <div class="sales-kpi-card">
+              <span class="sales-kpi-card__num">8 Parking</span>
+              <p class="sales-kpi-card__text">
+                Estacionamientos propios en primer nivel. Las medidas son aproximadas; las imágenes son referenciales y podrían estar sujetas a cambios.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galería Exclusiva de los 2 Proyectos: Alameda 5 y Alameda II -->
+        <div class="buildings-grid buildings-grid--two" id="coleccion-edificios">
+          <!-- Proyecto 1: ALAMEDA 5 -->
+          <article class="building-card">
+            <div class="building-card__media">
+              <img
+                src="media/img/img-e7a632b87a.webp"
+                alt="Fachada Oficial Proyecto Residencial Alameda 5 Smart Living"
+                loading="lazy"
+                class="building-card__img"
+              />
+              <span class="building-card__badge building-card__badge--green">Alameda 5 · Flats y Dúplex + Azotea</span>
+            </div>
+            <div class="building-card__body">
+              <div class="building-card__meta">Lima · Proyecto Alameda 5 · Smart Living</div>
+              <h3 class="building-card__title">Residencial <em>Alameda 5</em></h3>
+              <p class="building-card__desc">
+                Edificación residencial bajo el concepto Smart Living con unidades <strong>Flat (Dptos. 202 y 402 de 94.61 m² y Dpto. 301 de 101.00 m²)</strong> y <strong>Piso Dúplex + Azotea (Dpto. 501 de 139.65 m² y Dpto. 503 de 124.12 m²)</strong>. Distribución moderna con 3 dormitorios, estudio, balcones y amplia terraza.
+              </p>
+              <div class="building-card__specs">
+                <span>Flats: 94.61 – 101.00 m²</span>
+                <span>·</span>
+                <span>Dúplex + Azotea: 124.12 – 139.65 m²</span>
+              </div>
+              <div class="building-card__actions building-card__actions--split">
+                <a href="#planos-alameda-5" class="btn btn--glass building-card__btn">Ver todos los planos</a>
+                <a href="#contacto" class="btn btn--solid building-card__btn" data-project="Proyecto Alameda 5">Cotizar en Alameda 5</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2: ALAMEDA II -->
+          <article class="building-card">
+            <div class="building-card__media">
+              <img
+                src="media/img/img-aa8e62dfa0.webp"
+                alt="Proyecto Residencial Alameda II - Edificio moderno de departamentos Flat y Triplex en Lima"
+                loading="lazy"
+                class="building-card__img"
+              />
+              <span class="building-card__badge building-card__badge--green">En Venta · Flat y Triplex</span>
+            </div>
+            <div class="building-card__body">
+              <div class="building-card__meta">Lima · Proyecto Alameda II · Smart Living</div>
+              <h3 class="building-card__title">Residencial <em>Alameda II</em></h3>
+              <p class="building-card__desc">
+                Nuestro edificio residencial con departamentos <strong>Flat y Triplex</strong>. Cuenta con cerraduras inteligentes, iluminación LED escénica en sala-comedor, cocina equipada y control desde tu smartphone.
+              </p>
+              <div class="building-card__specs">
+                <span>Tipologías Flat y Triplex</span>
+                <span>·</span>
+                <span>Pack Smart Living</span>
+                <span>·</span>
+                <span>WhatsApp: 989 144 212</span>
+              </div>
+              <div class="building-card__actions">
+                <a href="#contacto" class="btn btn--solid building-card__btn" data-project="Proyecto Alameda II - Flat y Triplex">Cotizar en Alameda II</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- GALERÍA DETALLADA DE PLANOS Y TIPOLOGÍAS · ALAMEDA 5 SMART LIVING -->
+        <div class="floorplans-box" id="planos-alameda-5">
+          <div class="floorplans-box__header">
+            <div>
+              <span class="section__eyebrow">Planos Oficiales 3D · Proyecto Alameda 5 Smart Living</span>
+              <h3 class="floorplans-box__title">Distribución arquitectónica de <em>Alameda 5.</em></h3>
+            </div>
+            <div class="floorplans-box__downloads">
+              <a href="media/alameda-5-dpto-501-duplex.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--glass floorplans-box__pdf-btn">
+                PDF Dúplex 501 (139.65 m²)
+              </a>
+              <a href="media/alameda-5-dpto-503-duplex.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--glass floorplans-box__pdf-btn">
+                PDF Dúplex 503 (124.12 m²)
+              </a>
+              <a href="media/alameda-5-dpto-301-flat.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--glass floorplans-box__pdf-btn">
+                PDF Flat 301 (101.00 m²)
+              </a>
+              <a href="media/alameda-5-dpto-202-flat.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--glass floorplans-box__pdf-btn">
+                PDF Flat 202 (94.61 m²)
+              </a>
+              <a href="media/alameda-5-dpto-402-flat.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--glass floorplans-box__pdf-btn">
+                PDF Flat 402 (94.61 m²)
+              </a>
+            </div>
+          </div>
+
+          <!-- Bloque 1: Piso Dúplex + Azotea - Dpto 501 -->
+          <div class="floorplan-unit">
+            <div class="floorplan-unit__info">
+              <span class="floorplan-unit__tag">PISO DÚPLEX + AZOTEA · DEPARTAMENTO 501</span>
+              <h4 class="floorplan-unit__name">Departamento 501 · Área Total Techada: <strong>139.65 m²</strong> + Azotea Libre</h4>
+              <ul class="floorplan-unit__list">
+                <li><strong>5to Piso (66.84 m² aprox.):</strong> Ingreso, Sala-Comedor con balcón, Cocina de 5.10 m, Barra/Bar, Estudio independiente y Baño completo.</li>
+                <li><strong>6to Piso (72.81 m² aprox.):</strong> Dormitorio Principal 01 con Vestidor y Baño privado, Dormitorio 02, Dormitorio 03 y Baño secundario.</li>
+                <li><strong>Azotea (Área Libre):</strong> Amplia Terraza social de 7.38 m × 5.10 m, Hall, Baño, Lavandería y Tendal independiente.</li>
+              </ul>
+            </div>
+
+            <div class="floorplan-gallery floorplan-gallery--four">
+              <figure class="floorplan-item">
+                <a href="media/alameda5-501-p1.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-3323f54827.webp" alt="Alameda 5 Dpto 501 - Vista general 5to Piso, 6to Piso y Azotea" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 501 · Vista General (5to, 6to Piso y Azotea)</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-501-p2.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-6b9fbd27a7.webp" alt="Alameda 5 Dpto 501 - Planta 5to Piso (66.84 m²)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 501 · 5to Piso (66.84 m²) · Sala, Comedor, Cocina, Bar y Estudio</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-501-p3.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-84566b2db0.webp" alt="Alameda 5 Dpto 501 - Planta 6to Piso (72.81 m²)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 501 · 6to Piso (72.81 m²) · 3 Dormitorios, Vestidor y 2 Baños</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-501-p4.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-b5d002704c.webp" alt="Alameda 5 Dpto 501 - Planta Azotea (Terraza, Lavandería y Tendal)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 501 · Azotea · Terraza Social, Baño, Lavandería y Tendal</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Bloque 2: Piso Dúplex + Azotea - Dpto 503 -->
+          <div class="floorplan-unit floorplan-unit--divider">
+            <div class="floorplan-unit__info">
+              <span class="floorplan-unit__tag">PISO DÚPLEX + AZOTEA · DEPARTAMENTO 503</span>
+              <h4 class="floorplan-unit__name">Departamento 503 · Área Total Techada: <strong>124.12 m²</strong> + Azotea Libre</h4>
+              <ul class="floorplan-unit__list">
+                <li><strong>5to Piso (65.13 m² aprox.):</strong> Ingreso, amplia Sala-Comedor con doble balcón exterior, Cocina equipada de 4.38 m, Estudio independiente y Baño de visita.</li>
+                <li><strong>6to Piso (58.99 m² aprox.):</strong> Dormitorio Principal 01 con Balcón privado, Vestidor (Walk-in Closet) y Baño incorporado; Dormitorio 02, Dormitorio 03, Hall y segundo Baño completo.</li>
+                <li><strong>Azotea (Área Libre):</strong> Gran Terraza panorámica de 8.35 m × 5.35 m con piso en espiga, Hall, Baño social y Lavandería independiente.</li>
+              </ul>
+            </div>
+
+            <div class="floorplan-gallery floorplan-gallery--three">
+              <figure class="floorplan-item">
+                <a href="media/alameda5-503-p1.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-126640848d.webp" alt="Alameda 5 Dpto 503 - Planta 5to Piso (65.13 m²)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 503 · 5to Piso (65.13 m²) · Sala-Comedor, Doble Balcón, Cocina y Estudio</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-503-p2.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-6e513472c0.webp" alt="Alameda 5 Dpto 503 - Planta 6to Piso (58.99 m²)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 503 · 6to Piso (58.99 m²) · 3 Dormitorios, Vestidor, Balcón y 2 Baños</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-503-p3.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-be44e77f5d.webp" alt="Alameda 5 Dpto 503 - Planta Azotea (Terraza, Hall, Baño y Lavandería)" loading="lazy" />
+                </a>
+                <figcaption>Dpto. 503 · Azotea · Gran Terraza de 8.35 m, Hall, Baño y Lavandería</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Bloque 3: Departamentos Flat (Piso 2 Dpto. 202, Piso 3 Dpto. 301 y Piso 4 Dpto. 402) -->
+          <div class="floorplan-unit floorplan-unit--divider">
+            <div class="floorplan-unit__info">
+              <span class="floorplan-unit__tag">DEPARTAMENTOS FLAT (2DO, 3ER Y 4TO PISO) · DPTOS. 202, 301 Y 402</span>
+              <h4 class="floorplan-unit__name">Flats de 3 Dormitorios · Área Techada: <strong>94.61 m² a 101.00 m²</strong></h4>
+              <ul class="floorplan-unit__list">
+                <li><strong>Piso 3 · Departamento 301 (Área Techada: 101.00 m²):</strong> Ingreso a amplia Sala-Comedor de 5.10 m × 5.00 m con gran balcón de 5.50 m, Cocina con desayunador, Lavandería ventilada, Dormitorio Principal 01 con balcón y baño privado, Dormitorios 02 y 03 y segundo baño completo.</li>
+                <li><strong>Piso 2 y Piso 4 · Departamentos 202 y 402 (Área Techada: 94.61 m²):</strong> Sala-Comedor con balcón exterior, Cocina semi-abierta con barra, Lavandería independiente, 3 Dormitorios (Principal con balcón y baño incorporado) y 2 Baños completos.</li>
+              </ul>
+              <a href="#contacto" class="btn btn--solid" data-project="Proyecto Alameda 5">Separar departamento en Alameda 5</a>
+            </div>
+
+            <div class="floorplan-gallery floorplan-gallery--three">
+              <figure class="floorplan-item">
+                <a href="media/alameda5-202-p1.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-200f2b6a9e.webp" alt="Alameda 5 Dpto 202 - Planta 2do Piso Flat de 94.61 m²" loading="lazy" />
+                </a>
+                <figcaption>Piso 2 · Departamento 202 Flat (Área Techada: 94.61 m²)</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-301-p1.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-4836048a73.webp" alt="Alameda 5 Dpto 301 - Planta 3er Piso Flat de 101.00 m²" loading="lazy" />
+                </a>
+                <figcaption>Piso 3 · Departamento 301 Flat (Área Techada: 101.00 m²)</figcaption>
+              </figure>
+
+              <figure class="floorplan-item">
+                <a href="media/alameda5-402-p1.png" target="_blank" rel="noopener noreferrer">
+                  <img src="media/img/img-210094b1a7.webp" alt="Alameda 5 Dpto 402 - Planta 4to Piso Flat de 94.61 m²" loading="lazy" />
+                </a>
+                <figcaption>Piso 4 · Departamento 402 Flat (Área Techada: 94.61 m²)</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Bloque 4: Acabados, Mobiliario Funcional y Bienestar Smart Living -->
+          <div class="floorplan-unit floorplan-unit--divider">
+            <div class="floorplan-unit__info">
+              <span class="floorplan-unit__tag">INTERIORISMO INTELIGENTE · ACABADOS &amp; MOBILIARIO MULTIFUNCIONAL</span>
+              <h4 class="floorplan-unit__name">Diseño de interiores optimizado <em>y confort biofílico.</em></h4>
+              <p class="section__lead">
+                Cada unidad de <strong>Alameda 5</strong> y <strong>Alameda II</strong> incorpora soluciones de mobiliario inteligente adaptable para home-office y estudio, junto con áreas de bienestar pensadas para el relax diario.
+              </p>
+            </div>
+            <div class="floorplan-gallery floorplan-gallery--two">
+              <figure class="floorplan-item floorplan-item--dark">
+                <img src="media/img/img-1d4bd9a056.webp" alt="Mobiliario inteligente desplegable para estudio y sala en departamentos Smart Home" loading="lazy" />
+                <figcaption>Mobiliario Modular Smart · Escritorio desplegable integrado para Estudio y Home Office</figcaption>
+              </figure>
+              <figure class="floorplan-item floorplan-item--dark">
+                <img src="media/img/img-437f5d4746.webp" alt="Espacio de bienestar e interiorismo biofílico con vegetación e iluminación cálida" loading="lazy" />
+                <figcaption>Atmósfera Biofílica &amp; Relax · Integración de luz cálida, piedra natural y vegetación viva</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS DE SMART HOME INMOBILIARIA -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Servicios · Smart Home Inmobiliaria</span>
+          <h2 class="section__title">Acompañamiento integral hacia tu <em>nuevo departamento inteligente.</em></h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-item">
+            <span class="service-item__num">01</span>
+            <h3 class="service-item__title">Venta de Departamentos Flat y Triplex</h3>
+            <p class="service-item__text">
+              Asesoría personalizada para elegir la distribución ideal en Alameda II y nuestros proyectos en estreno, con evaluación crediticia bancaria inmediata.
+            </p>
+          </div>
+          <div class="service-item">
+            <span class="service-item__num">02</span>
+            <h3 class="service-item__title">Equipamiento Domótico Smart Living</h3>
+            <p class="service-item__text">
+              Entregamos tu departamento configurado con control de luces LED, cerradura inteligente, sensores de seguridad y compatibilidad con Alexa, Google Home y Apple HomeKit.
+            </p>
+          </div>
+          <div class="service-item">
+            <span class="service-item__num">03</span>
+            <h3 class="service-item__title">Arquitectura Eco-Sostenible &amp; Postventa</h3>
+            <p class="service-item__text">
+              Edificaciones diseñadas con áreas verdes biofílicas, bajo consumo de agua y luz, respaldadas por nuestro equipo técnico de garantía y postventa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO COMPLETA · NÚMEROS, CORREOS Y RESERVA DE VISITA -->
+    <section class="section section--contact" id="contacto">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-box__info">
+            <span class="section__eyebrow">Canales Oficiales de Contacto · Smart Home Inmobiliaria</span>
+            <h2 class="section__title">Comunícate con nosotros o <em>agenda tu visita.</em></h2>
+            <p class="section__lead">
+              Estamos listos para atenderte por llamada, WhatsApp o correo electrónico. Visita nuestro departamento piloto en <strong>Alameda II (Lima)</strong>.
+            </p>
+
+            <!-- Directorio Completo de Números y Correos de Contacto -->
+            <div class="contact-details">
+              <div class="contact-detail-card contact-detail-card--highlight">
+                <span class="contact-detail-card__label">Teléfonos y WhatsApp de Ventas</span>
+                <strong class="contact-detail-card__value">
+                  <a href="https://wa.me/51989144212" target="_blank" rel="noopener noreferrer">+51 989 144 212</a>
+                </strong>
+                <span class="contact-detail-card__sub">
+                  Central Telefónica Lima: <a href="tel:+5116428910">(01) 642-8910</a> · Celular Asesores: <a href="tel:+51945820310">+51 945 820 310</a>
+                </span>
+              </div>
+
+              <div class="contact-detail-card">
+                <span class="contact-detail-card__label">Correos Electrónicos Corporativos</span>
+                <strong class="contact-detail-card__value">
+                  <a href="mailto:ventas@smarthomeinmobiliaria.pe">ventas@smarthomeinmobiliaria.pe</a>
+                </strong>
+                <span class="contact-detail-card__sub">
+                  Informes y Cotizaciones: <a href="mailto:contacto@smarthomeinmobiliaria.pe">contacto@smarthomeinmobiliaria.pe</a><br />
+                  Atención al Cliente y Postventa: <a href="mailto:postventa@smarthomeinmobiliaria.pe">postventa@smarthomeinmobiliaria.pe</a>
+                </span>
+              </div>
+
+              <div class="contact-detail-card">
+                <span class="contact-detail-card__label">Ubicación Oficial &amp; Redes Sociales</span>
+                <strong class="contact-detail-card__value">La Alameda de Ñaña 1era Etapa · Lima</strong>
+                <span class="contact-detail-card__sub">
+                  Frente a la <strong>Av. Ramiro Prialé Km 18 aprox.</strong>, a 80 metros de la <strong>Universidad Peruana Unión (UPeU)</strong>.<br />
+                  Horario de visitas: Lunes a Domingo de 9:00 a.m. a 7:00 p.m.
+                </span>
+                <div class="social-links">
+                  <a href="https://www.instagram.com/smarthome.inmobiliaria/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    <span>@smarthome.inmobiliaria</span>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61577697706910" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    <span>Facebook Oficial</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <h3 class="contact-form__heading">Agenda tu Visita / Solicita Cotización</h3>
+
+            <!-- Campo Honeypot Anti-Spam / Anti-Bots invisible para usuarios reales -->
+            <div class="contact-form__hp" aria-hidden="true">
+              <label>No llenar este campo si eres humano
+                <input type="text" name="website_url_hp" id="website_url_hp" tabindex="-1" autocomplete="off" />
+              </label>
+            </div>
+
+            <div class="contact-form__row">
+              <label class="contact-form__field">
+                <span>Nombre y Apellidos *</span>
+                <input type="text" name="nombre" id="contact-nombre" placeholder="Ej. Carlos Gómez" maxlength="80" autocomplete="name" required />
+              </label>
+              <label class="contact-form__field">
+                <span>Celular / WhatsApp *</span>
+                <input type="tel" name="telefono" id="contact-telefono" placeholder="Ej. 989 144 212" maxlength="20" pattern="[0-9+\s()-]{7,20}" autocomplete="tel" required />
+              </label>
+            </div>
+
+            <div class="contact-form__row">
+              <label class="contact-form__field">
+                <span>Correo electrónico *</span>
+                <input type="email" name="email" id="contact-email" placeholder="carlos@correo.com" maxlength="100" autocomplete="email" required />
+              </label>
+              <label class="contact-form__field">
+                <span>Tipología de interés</span>
+                <select name="modalidad">
+                  <option value="duplex-501">Dúplex + Azotea · Dpto. 501 (139.65 m² - Alameda 5)</option>
+                  <option value="duplex-503">Dúplex + Azotea · Dpto. 503 (124.12 m² - Alameda 5)</option>
+                  <option value="flat-301">Flat 3er Piso · Dpto. 301 (101.00 m² - Alameda 5)</option>
+                  <option value="flat-202">Flat 2do Piso · Dpto. 202 (94.61 m² - Alameda 5)</option>
+                  <option value="flat-402">Flat 4to Piso · Dpto. 402 (94.61 m² - Alameda 5)</option>
+                  <option value="flat-triplex-alameda2">Departamento Flat / Triplex (Alameda II)</option>
+                  <option value="visita-piloto">Agendar visita presencial al Proyecto</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="contact-form__row">
+              <label class="contact-form__field">
+                <span>Proyecto de interés</span>
+                <select name="proyecto" id="project-select">
+                  <option value="Proyecto Alameda 5">Proyecto Alameda 5 · Smart Living (Flat 94.61 m² y Dúplex + Azotea 139.65 m²)</option>
+                  <option value="Proyecto Alameda II - Flat y Triplex">Proyecto Alameda II · Smart Living (Departamentos Flat y Triplex)</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="contact-form__row">
+              <label class="contact-form__field">
+                <span>Mensaje o consulta adicional</span>
+                <textarea name="mensaje" id="contact-mensaje" rows="3" maxlength="500" placeholder="Indícanos el horario en que deseas visitar el proyecto o recibir la llamada de un asesor..."></textarea>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn--solid contact-form__submit">Enviar datos y agendar visita</button>
+            <p class="contact-form__error" id="contact-error" role="alert" hidden></p>
+            <p class="contact-form__success" aria-live="polite">
+              ¡Gracias! Se abrió WhatsApp con tu consulta lista para enviar al 989 144 212. Si no se abrió, escríbenos directamente al +51 989 144 212 o a ventas@smarthomeinmobiliaria.pe.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="navbar__brand">
+        <img src="media/img/img-843ef37e64.webp" alt="Logo Smart Home Inmobiliaria" class="navbar__logo-img" />
+        <div class="navbar__brand-text">
+          <span class="navbar__brand-script">Smart Home</span>
+          <span class="navbar__brand-tag">INMOBILIARIA</span>
+        </div>
+      </div>
+      <div class="site-footer__contact-summary">
+        <span>WhatsApp: <a href="https://wa.me/51989144212" target="_blank" rel="noopener noreferrer">989 144 212</a></span>
+        <span>·</span>
+        <span>Correo: <a href="mailto:ventas@smarthomeinmobiliaria.pe">ventas@smarthomeinmobiliaria.pe</a></span>
+        <span>·</span>
+        <a href="https://www.instagram.com/smarthome.inmobiliaria/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span>·</span>
+        <a href="https://www.facebook.com/profile.php?id=61577697706910" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+      <p class="site-footer__copy">© 2026 Smart Home Inmobiliaria. Más que un departamento, un estilo de vida conectado.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

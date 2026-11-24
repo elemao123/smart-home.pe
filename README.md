@@ -1,1 +1,1 @@
-# smart-home.pe
+# SMART-HOME
